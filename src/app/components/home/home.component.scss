@@ -1,0 +1,59 @@
+.spacing {
+  letter-spacing: 3px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.first {
+    // padding: 100px 0px 0px 0px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+}
+.vertical-center {
+    align-self: center;
+}
+.second {
+    font-family: 'Noto Serif Display', serif;
+    padding: 75px 0 0 0;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 100px;
+}
+
+.section-two {
+    font-family: 'Noto Serif Display', serif;
+    color: gray;
+    font-size: 20px;
+    padding: 20px 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.third {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 20px;
+    line-height: 35px;
+    color: grey;
+}
+
+.third > a {
+    font-weight: 600;
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 40px; 
+}
+
+.third div {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
