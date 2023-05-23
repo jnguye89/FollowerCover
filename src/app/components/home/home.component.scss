@@ -7,53 +7,136 @@
 }
 
 .first {
-    // padding: 100px 0px 0px 0px;
-    font-size: 18px;
-    line-height: 35px;
+  font-size: 18px;
+  line-height: 35px;
 }
 
-.section{
-    height: 100vh;
-    display: flex;
+.noto-center {
+  display: flex;
+  padding: 0 0 10vh 0;
+  font-family: "Noto Serif Display", serif;
+  font-size: 20px;
+  a {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 600;
+  }
 }
+
+.creators {
+  padding: 0 0 5vh 0;
+  p {
+    font-size: 75px;
+  }
+}
+
+.creators-sub {
+  padding: 0 0 10vh 0;
+}
+
+.lemonada {
+  font-family: "Lemonada";
+  color: rgb(99, 98, 98);
+  p {
+    font-size: 20px;
+  }
+}
+
+.get-started {
+  font-family: "Roboto Slab", sans-serif;
+  color: gray;
+  p {
+    margin: 5px;
+  }
+}
+
+.merienda {
+  font-family: "Merienda", cursive;
+}
+
+.get-started-link {
+  margin: 30px 0 100px 0;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.font-small {
+  font-family: "Noto Serif Display", serif;
+  font-size: 100px;
+}
+
+.font-large {
+  font-family: "Noto Serif Display", serif;
+  font-size: 200px;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+}
+
 .vertical-center {
-    align-self: center;
+  align-self: center;
 }
+
 .second {
-    font-family: 'Noto Serif Display', serif;
-    padding: 75px 0 0 0;
-    font-size: 60px;
-    font-weight: 100;
-    line-height: 100px;
+  font-family: "Noto Serif Display", serif;
+  padding: 75px 0 0 0;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 100px;
 }
 
 .section-two {
-    font-family: 'Noto Serif Display', serif;
-    color: gray;
-    font-size: 20px;
-    padding: 20px 5px;
-    text-align: center;
-    line-height: 25px;
+  font-family: "Noto Serif Display", serif;
+  color: gray;
+  font-size: 20px;
+  padding: 5vh 5px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.section-three {
+  padding: 15vh 0 10vh 0;
+  font-family: "Noto Serif Display", serif;
+  p {
+    font-size: 30px;
+    font-weight: 100;
+  }
+}
+
+.noto {
+  font-family: "Noto Serif Display", serif;
+  font-size: 50px;
+  padding: 0 0 5vh 0;
+}
+
+.left-section {
+  padding: 0 100px 0 0;
 }
 
 .third {
-    font-family: 'Noto Serif Display', serif;
-    font-size: 20px;
-    line-height: 35px;
-    color: grey;
+  font-family: "Noto Serif Display", serif;
+  font-size: 20px;
+  line-height: 35px;
+  color: grey;
+}
+
+hr {
+  padding: 5vh 0;
 }
 
 .third > a {
-    font-weight: 600;
-    font-family: 'Roboto Slab', sans-serif;
-    padding: 40px; 
+  font-weight: 600;
+  font-family: "Roboto Slab", sans-serif;
+  padding: 40px;
 }
 
 .third div {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
