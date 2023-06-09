@@ -42,7 +42,7 @@
 }
 
 .get-started {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: gray;
   p {
     margin: 5px;
@@ -51,6 +51,12 @@
 
 .merienda {
   font-family: "Merienda", cursive;
+}
+
+.bitter {
+  font-family: "Bitter", serif;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .get-started-link {
@@ -68,6 +74,10 @@
 .font-large {
   font-family: "Noto Serif Display", serif;
   font-size: 200px;
+}
+
+.image-section{
+  padding: 10vh 0
 }
 
 .section {
